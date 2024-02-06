@@ -1,0 +1,7 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  my_service:
+    image: workflowai/private-pdf-extractor:latest
+    ports:
+      - "8080:8080"
