@@ -4,7 +4,7 @@ Note: these instructions may look technical, but they don't require any speciali
 
 Or feel free to open an issue on this repo!
 
-## Getting started with the Private PDF Extractor:
+## Getting started with the Private PDF Extractor
 
 1. Download [Docker Desktop](https://www.docker.com/products/docker-desktop/). This allows you to run software locally, securely, and for free.
 2. Open Docker Desktop. Click on the search bar on the top, and type `workflowai/private-pdf-extractor`
@@ -15,6 +15,10 @@ Or feel free to open an issue on this repo!
 Please note that the first PDF will be slow to process and requires an active internet connection: the software needs to download the latest AI models to parse the file. Every PDF after the first one should be processed in a few seconds.
 
 At this point, feel free to turn off the internet if you'd like to guarantee your most sensitive files will be secure. Doing this is only for your peace of mind; with or without internet, no data ever leaves your computer at any time.
+
+### Using Docker Compose
+
+For the more technical users, feel free to download and use the `docker-compose.yml` file from this repo.
 
 ## Troubleshooting
 
