@@ -6,7 +6,7 @@ Or feel free to open an issue on this repo!
 
 ## Getting started with the Private PDF Extractor:
 
-1. Download Docker Desktop. This allows you to run software locally, securely, and for free.
+1. Download [Docker Desktop](https://www.docker.com/products/docker-desktop/). This allows you to run software locally, securely, and for free.
 2. Open Docker Desktop. Click on the search bar on the top, and type `workflowai/private-pdf-extractor`
 3. Click on the Images tab, and you should see the `workflowai/private-pdf-extractor` image as the first result. Click on it, click Run, and expand the optional settings. In the Host port section, type 8080
 4. Click on Run! It'll take several minutes to get started the first time, but every subsequent run will be fast. Once you see the Logs output say something like "NiceGUI ready to go on http://localhost:8080, and http://172.17.0.2:8080", then open http://localhost:8080 in your favorite browser.
